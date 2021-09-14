@@ -1,4 +1,4 @@
 useDynLib(DMI, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
-importFrom(parellel, parLapply)
+importFrom(parallel, parLapply)
 exportPattern("^[[:alpha:]]+")
